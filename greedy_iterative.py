@@ -13,6 +13,7 @@ import numpy as np
 import shap
 
 
+# Make function
 def _is_tree_model(model):
     """Check if model is a tree-based model supported by TreeExplainer."""
     tree_types = (

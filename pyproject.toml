@@ -4,7 +4,7 @@ line-length = 120
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "N", "W", "UP"]
-ignore = ["E501", "N803"]  # N803: allow uppercase X_ args (ML convention)
+ignore = ["E501", "N803", "E402"]  # N803: uppercase X_ args (ML convention), E402: notebook mid-cell imports
 
 [tool.ruff.format]
 quote-style = "double"
